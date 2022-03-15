@@ -1,4 +1,8 @@
-/* import styled from 'styled-components';
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* import styled from 'styled-components'; */
 /* import poppins-Weights: 600, open sans---Weights: 400, 700 */
 /* - Mobile:375px - Desktop:1440px */
 /* Some suggestions can be found below:- [Font Awesome](https://fontawesome.com/) - [IcoMoon](https://icomoon.io/) 
@@ -31,6 +35,12 @@
 
 html {
   font-size: 62.5%;
+  
+  @media (max-width: 48em) {
+    font-size: 5%;
+
+   
+  
 }
 
 body {
@@ -50,8 +60,6 @@ img {
   width: 100%;
 }
 
-@media (max-width: 48em) {
-  html {
-    font-size: 50%;
-  }
-}
+`;
+
+export default GlobalStyles;
