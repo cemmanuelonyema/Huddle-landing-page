@@ -1,5 +1,6 @@
 import React from "react";
 import { Fragment } from "react/cjs/react.production.min";
+import Content from "./components/react/Content";
 // import GlobalStyles from "./components/styles/Globalstyle";
 import Header from "./components/react/Header";
 import { Container } from "./components/styles/Container.style";
@@ -11,7 +12,7 @@ const App = () => {
     <Fragment>
       <Header />
       <Container>
-        <h1>Hello world</h1>
+        <Content />
       </Container>
     </Fragment>
   );

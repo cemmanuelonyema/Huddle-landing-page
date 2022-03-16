@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
-export const FLex = styled.div`
+export const Flex = styled.div`
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-  gap: 3rem;
+  gap: ${({ gap }) => gap || "3rem"};
+  padding: ${({ pad }) => pad};
+  box-shadow: ${({ shadow }) => shadow};
+  /* box-shadow: var(--shadow); */
 
   @media (max-width: 48em) {
     flex-direction: column;

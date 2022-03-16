@@ -49,6 +49,21 @@ li {
 img {
   width: 100%;
 }
+section {
+  gap: 6rem;
+  padding: 3rem 10rem;
+  box-shadow: var(--shadow);
+  margin: 4rem 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* gap: ${({ gap }) => gap || "3rem"};
+  padding: ${({ pad }) => pad};
+  box-shadow: ${({ shadow }) => shadow}; */
+}
 
 @media (max-width: 48em) {
   html {

@@ -14,6 +14,5 @@ export const Button = styled.button`
 
   &:hover {
     opacity: 0.7;
-    transform: scale(0.97);
   }
 `;

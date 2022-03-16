@@ -8,7 +8,7 @@ import {
 } from "../styles/StyledHeader.style";
 import { Button } from "../styles/Button.style";
 import { Container } from "../styles/Container.style";
-import { FLex } from "../styles/Flex";
+import { Flex } from "../styles/Flex";
 const Header = () => {
   return (
     <StyledHeader>
@@ -18,7 +18,7 @@ const Header = () => {
           <Button>Try it for free</Button>
         </Nav>
 
-        <FLex>
+        <Flex>
           <Content>
             <h1>Build The Community Your Fans Will Love</h1>
 
@@ -36,7 +36,7 @@ const Header = () => {
           <Illustration>
             <img src="./images/illustration-mockups.svg" alt=" Illustration" />
           </Illustration>
-        </FLex>
+        </Flex>
       </Container>
     </StyledHeader>
   );
