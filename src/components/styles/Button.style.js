@@ -5,7 +5,6 @@ export const Button = styled.button`
   border-radius: 3rem;
   border: none;
   padding: 1.5rem 3.5rem;
-  box-shadow: var(--shadow);
   font-size: 1.4rem;
   font-weight: bold;
   color: ${({ color }) => color || "#00252e"};
