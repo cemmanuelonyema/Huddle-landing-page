@@ -30,6 +30,5 @@ export const StyledFooter = styled.footer`
     @media (max-width: 48em) {
     text-align:center;
   }
-  }
-
+  
 `;
