@@ -1,10 +1,11 @@
 import React from "react";
 import { Flex } from "../styles/Flex";
+import { StyledContent } from "../styles/StyledContent";
 
 const Content = () => {
   return (
     <div>
-      <section>
+      <StyledContent>
         <Flex>
           <div>
             <h3>Grow Together</h3>
@@ -21,9 +22,9 @@ const Content = () => {
             />
           </div>
         </Flex>
-      </section>
+      </StyledContent>
 
-      <section>
+      <StyledContent>
         <Flex>
           <div>
             <img
@@ -41,9 +42,9 @@ const Content = () => {
             </p>
           </div>
         </Flex>
-      </section>
+      </StyledContent>
 
-      <section>
+      <StyledContent>
         <Flex>
           <div>
             <h3>Your users</h3>
@@ -60,7 +61,7 @@ const Content = () => {
             />
           </div>
         </Flex>
-      </section>
+      </StyledContent>
     </div>
   );
 };

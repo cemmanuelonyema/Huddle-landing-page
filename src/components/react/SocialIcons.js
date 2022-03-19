@@ -5,15 +5,21 @@ import { StyledSocialIcons } from "../styles/StyledSocialIcons";
 export default function SocialIcons() {
   return (
     <StyledSocialIcons>
-      <ul>
+      <ul class="social-media">
         <li>
-          <a href="https://twitter.com">twitter</a>
+          <a class="circle" href="/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
         </li>
         <li>
-          <a href="https://facebook.com">facebook</a>
+          <a class="circle" href="/">
+            <i class="fab fa-twitter"></i>
+          </a>
         </li>
         <li>
-          <a href="https://linkedin.com">linkedin </a>
+          <a class="circle" href="/">
+            <i class="fab fa-instagram"></i>
+          </a>
         </li>
       </ul>
     </StyledSocialIcons>

@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
+  background-image: url("/images/bg-hero-desktop.svg");
   background-color: var(--very-pale-cyan);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 2rem 0 7rem 0;
   height: 100%;
 
-  h1 {
-    /* color: #fff; */
-  }
+  @media (max-width: 48em) {
+    background-image: url("/images/bg-hero-mobile.svg");
 `;
 
 export const Nav = styled.nav`
@@ -18,8 +20,6 @@ export const Nav = styled.nav`
   
   @media (max-width: 48em) {
  margin-bottom: 6rem;
-
-
 `;
 
 export const Logo = styled.img`

@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react/cjs/react.production.min";
 import Content from "./components/react/Content";
 import Footer from "./components/react/Footer";
+import FooterCta from "./components/react/FooterCta";
 // import FooterCta from "./components/react/FooterCta";
 // import GlobalStyles from "./components/styles/Globalstyle";
 import Header from "./components/react/Header";
@@ -15,7 +16,7 @@ const App = () => {
       <Header />
       <Container>
         <Content />
-        {/* <FooterCta></FooterCta> */}
+        {/* <FooterCta /> */}
       </Container>
       <Footer />
     </Fragment>

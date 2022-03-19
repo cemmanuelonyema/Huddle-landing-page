@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const Flex = styled.div`
   display: flex;
-  align-items: center;
+  align-items: ${({ align }) => align || "center"};
   /* justify-content: space-between; */
-  gap: ${({ gap }) => gap || "3rem"};
-  padding: ${({ pad }) => pad};
-  box-shadow: ${({ shadow }) => shadow};
-  /* box-shadow: var(--shadow); */
+  /* gap: ${({ gap }) => gap || "3rem"} */
+  gap: 3rem;
+
+  /* 
+  & > div,
+  & > ul {
+    flex: 1;
+  } */
 
   @media (max-width: 48em) {
     flex-direction: column;

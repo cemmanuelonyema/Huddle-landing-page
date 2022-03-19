@@ -13,7 +13,7 @@ const Footer = () => {
           {" "}
           <img src="/images/logo_white.svg" alt="" />
         </div>
-        <Flex>
+        <Flex align="flex-start">
           <ul>
             <li>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

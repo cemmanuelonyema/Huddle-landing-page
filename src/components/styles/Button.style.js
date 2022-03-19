@@ -10,8 +10,9 @@ export const Button = styled.button`
   color: ${({ color }) => color || "#00252e"};
   cursor: pointer;
   transition: all 300ms;
+  box-shadow: var(--shadow);
 
   &:hover {
-    opacity: 0.7;
+    opacity: 0.8;
   }
 `;
