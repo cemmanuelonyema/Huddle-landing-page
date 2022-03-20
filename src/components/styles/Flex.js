@@ -16,6 +16,6 @@ export const Flex = styled.div`
   @media (max-width: 48em) {
     flex-direction: column;
     text-align: center;
-    gap: 7rem;
+    gap: 3rem;
   }
 `;

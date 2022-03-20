@@ -8,6 +8,11 @@ export const StyledSocialIcons = styled.div`
   ul {
     display: flex;
     justify-content: flex-start;
+
+    @media (max-width: 48em) {
+      width: 100%;
+      justify-content: space-around;
+    }
   }
 
   a {
@@ -17,9 +22,8 @@ export const StyledSocialIcons = styled.div`
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
-    height: 40px;
-    width: 40px;
-    text-decoration: none;
+    margin-right: 1.5rem;
+    height: 4rem;
+    width: 4rem;
   }
 `;

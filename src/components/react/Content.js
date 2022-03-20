@@ -6,7 +6,7 @@ const Content = () => {
   return (
     <div>
       <StyledContent>
-        <Flex>
+        <Flex className="col-reverse">
           <div>
             <h3>Grow Together</h3>
             <p>
@@ -45,7 +45,7 @@ const Content = () => {
       </StyledContent>
 
       <StyledContent>
-        <Flex>
+        <Flex className="col-reverse">
           <div>
             <h3>Your users</h3>
             <p>

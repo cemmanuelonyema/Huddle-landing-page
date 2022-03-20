@@ -33,7 +33,11 @@ export const Content = styled.div`
     flex-direction: column;
     text-align: center;
   }
-
+  h1 {
+    @media (max-width: 48em) {
+      font-size: 3.5rem;
+    }
+  }
   h1,
   p {
     margin-bottom: 2.5rem;

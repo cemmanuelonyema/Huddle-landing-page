@@ -14,7 +14,7 @@ const Footer = () => {
           <img src="/images/logo_white.svg" alt="" />
         </div>
         <Flex align="flex-start">
-          <ul>
+          <ul className="foot-p">
             <li>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -22,13 +22,13 @@ const Footer = () => {
             <li>+1-543-123-4567</li>
             <li>example@huddle.com</li>
           </ul>
-          <ul>
+          <ul className="flex-mobile">
             <li>About Us</li>
             <li>What We Do</li>
             <li>FAQ</li>
           </ul>
 
-          <ul>
+          <ul className="flex-mobile">
             <li>Career</li>
             <li>Blog</li>
             <li>Contact Us</li>
@@ -37,7 +37,7 @@ const Footer = () => {
           <SocialIcons />
         </Flex>
 
-        <p>&copy; 2021 Huddle. All rights reserved</p>
+        <p className="copy">&copy; 2021 Huddle. All rights reserved</p>
       </Container>
     </StyledFooter>
   );

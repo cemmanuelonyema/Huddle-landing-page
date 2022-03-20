@@ -9,26 +9,59 @@ export const StyledFooter = styled.footer`
 
   .footLogo {
     width: 20rem;
+    
+    @media (max-width: 48em) {
+       display: flex;
+       justify-content: center;
+
+        }
   }
 
-  * {
+  .foot-p li{
+    margin-bottom: 2rem;
+ 
+   }
+
+ ul, div {
     flex: 1;
     margin-bottom: 3rem;
     
+    
   @media (max-width: 48em) {
     margin-bottom: 1rem;
+    width: 100%;
       
   }
+ .flex-mobile{
+     li, .foot-p li{
+        margin-bottom: 2rem;
+
+     }
+
+    @media (max-width: 48em) {
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 1px solid  #6d6c6c;
+   padding: 3rem 0;
+
+
+}
+
+ ul li {
+	margin-bottom: 2rem;
+}
 
   p {
     text-align: right;
-    text-align: center;
 
+    @media (max-width: 48em) {
+    text-align: center;
   }
 
-  li{
+
+  li, .copy{
     @media (max-width: 48em) {
-    text-align:center;
+    text-align: center;
   }
   
 `;

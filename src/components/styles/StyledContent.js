@@ -6,4 +6,12 @@ export const StyledContent = styled.section`
   /* padding: 4rem; */
   box-shadow: var(--shadow);
   margin: 4rem 0;
+
+  @media (max-width: 48em) {
+    padding: 4rem;
+
+    .col-reverse {
+      flex-direction: column-reverse;
+    }
+  }
 `;
